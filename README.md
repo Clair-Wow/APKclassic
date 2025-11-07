@@ -58,4 +58,5 @@ APK helps you keep your favorite companions by your side without needing to open
 **GitHub:** [https://github.com/Clair-Wow/APKclassic](https://github.com/Clair-Wow/APKclassic)
 
 
+See full changelog → [CHANGELOG.md](./CHANGELOG.md)
 
