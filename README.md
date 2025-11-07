@@ -2,7 +2,7 @@
 
 **Version:** 1.0.2  
 **Interface:** 50400  
-**Author:** Clair-Wow  
+**Author:** L Clair
 **Game:** World of Warcraft – Classic: Mists of Pandaria  
 
 ---
