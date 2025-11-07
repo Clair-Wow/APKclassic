@@ -1,0 +1,10 @@
+## Interface: 50400
+## Title: APK (MoP Classic)
+## Notes: Auto-summon companion pets (MoP Classic)
+## Author: Reboah - Staghelm US
+## Version: 1.0.2
+## 1.0.2 - fixed minimap button that was outside frame.
+## SavedVariables: APKDB
+
+APK.lua
+APK_UI.lua
