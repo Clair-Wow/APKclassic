@@ -16,13 +16,13 @@ APK helps you keep your favorite companions by your side without needing to open
 ---
 
 ### ✨ Features
-- 🐶 **Auto-Summon on Login** – Automatically brings out a random pet when you log in.  
-- 🐴 **Auto-Summon on Dismount** – Resummons your favorite after mounting or flying.  
-- 💖 **Favorites & Blacklist** – Mark pets you prefer or exclude from random picks.  
-- 🌍 **Zone-Specific Pets** – Assign pets to specific zones (optional).  
-- 🎯 **Simple UI** – Includes a movable summon button and a minimap button.  
-- ⚙️ **Options Panel** – Toggle features, choose summon behavior, and manage favorites.  
-- 🔄 **Slash Commands** – Full control via `/apk` commands.
+-  **Auto-Summon on Login** – Automatically brings out a random pet when you log in.  
+-  **Auto-Summon on Dismount** – Resummons your favorite after mounting or flying.  
+-  **Favorites & Blacklist** – Mark pets you prefer or exclude from random picks.  
+-  **Zone-Specific Pets** – Assign pets to specific zones (optional).  
+-  **Simple UI** – Includes a movable summon button and a minimap button.  
+-  **Options Panel** – Toggle features, choose summon behavior, and manage favorites.  
+-  **Slash Commands** – Full control via `/apk` commands.
 
 ---
 
