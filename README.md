@@ -1,62 +1,86 @@
-# APKclassic (Azeroth Pet Keeper – Classic MoP)
+# APKclassic — Azeroth Pet Keeper for Classic MoP
 
-**Version:** 1.0.2  
+**Version:** 1.0.3  
+**Game Client:** World of Warcraft Classic — Mists of Pandaria  
 **Interface:** 50400  
-**Author:** L Clair
-**Game:** World of Warcraft – Classic: Mists of Pandaria  
+**Author:** L.Clair  
 
 ---
 
-### 🐾 Overview
-**Azeroth Pet Keeper (APK)** automatically summons one of your favorite battle pets whenever you log in, dismount, or use the summon button.  
-This version is designed **specifically for WoW Classic: Mists of Pandaria**, using the `C_PetJournal` API available in that client.
+## 🐾 Overview
+**Azeroth Pet Keeper (APKclassic)** automatically summons one of your companion battle pets while you play.  
+This version is built specifically for **Classic MoP**, using the Pet Journal API introduced in Patch 5.x.
 
-APK helps you keep your favorite companions by your side without needing to open the Pet Journal every time.
+Summon pets on login, when dismounting, or manually through the summon button or minimap button.
 
----
-
-### ✨ Features
--  **Auto-Summon on Login** – Automatically brings out a random pet when you log in.  
--  **Auto-Summon on Dismount** – Resummons your favorite after mounting or flying.  
--  **Favorites & Blacklist** – Mark pets you prefer or exclude from random picks.  
--  **Zone-Specific Pets** – Assign pets to specific zones (optional).  
--  **Simple UI** – Includes a movable summon button and a minimap button.  
--  **Options Panel** – Toggle features, choose summon behavior, and manage favorites.  
--  **Slash Commands** – Full control via `/apk` commands.
+APK keeps your favorite companions with you without constant journal juggling.
 
 ---
 
-### 🔧 Commands
-| Command | Description |
-|----------|-------------|
-| `/apk` or `/apk summon` | Summon a random allowed pet |
-| `/apk last` | Re-summon the last pet used |
-| `/apk options` | Open the options window |
-| `/apk manager` | Open the Pet Manager (favorites, blacklist, counters) |
-| `/apk minimap show/hide/reset` | Control the minimap button |
-| `/apk ui reset` | Reset the summon button position |
-| `/apk zone on/off/add/clear` | Manage zone-specific pets |
+## ✨ Features
+- 🐾 **Automatic Summoning**
+  - On login  
+  - On dismount  
+  - With indoor/outdoor/raid rules  
+- 🔀 **Anti-Repeat Pet Rotation (New in v1.0.3!)**
+  - Tracks last 10 summoned pets  
+  - Prevents back-to-back repeats  
+  - `/apk last` still intentionally re-summons the last pet  
+- 💖 **Favorites and Blacklists**
+- 🌍 **Zone-Based Pet Sets** (optional)
+- 🎯 **Simple UI**
+  - Movable main summon button  
+  - Rim-attached minimap button  
+  - Detailed Pet Manager  
+- 🛠 **Custom Options Panel**
+- 🔄 **Slash Commands** for full control
 
 ---
 
-### 📦 Installation
-1. Download the latest ZIP from [GitHub Releases](https://github.com/Clair-Wow/APKclassic/releases).  
-2. Extract it so the folder path looks like:  World of Warcraft/classic/Interface/AddOns/APK/
-3. Restart WoW and ensure “Load out of date AddOns” is checked on the AddOns screen.  
-4. Type `/apk` in chat to confirm it’s loaded.
+## 🔧 Commands
+
+| Command | Action |
+|--------|--------|
+| `/apk` / `/apk summon` | Summon a random pet |
+| `/apk last` | Re-summon the previous pet |
+| `/apk options` | Open the Options window |
+| `/apk manager` | Open the Pet Manager |
+| `/apk minimap show` | Show the minimap button |
+| `/apk minimap hide` | Hide the minimap button |
+| `/apk minimap reset` | Reset minimap button to default position |
+| `/apk ui reset` | Reset the main summon button |
+| `/apk zone on/off` | Enable or disable zone-based sets |
+| `/apk zone add` | Add current pet to current zone |
+| `/apk zone clear` | Clear zone set |
 
 ---
 
-### 🧭 Compatibility
-- Built for **Classic: Mists of Pandaria (Interface 50400)**.  
-- Works with the in-game Pet Journal API (`C_PetJournal`).  
-- Not required for Retail; use the separate [Retail version](https://github.com/Clair-Wow/APK) instead.
+## 🧭 Compatibility
+- Supports **Classic MoP** (`Interface: 50400`)  
+- Uses `C_PetJournal` for pet handling  
+- Does **not** support Retail or Classic Era
 
 ---
 
-### 🛠 Development
-**GitHub:** [https://github.com/Clair-Wow/APKclassic](https://github.com/Clair-Wow/APKclassic)
+## 🛠 Development
+Repo: https://github.com/Clair-Wow/APKclassic
 
+### Workflow
+```bash
+git add -A
+git commit -m "Your commit message"
+git push
 
-See full changelog → [CHANGELOG.md](./CHANGELOG.md)
+# create a new release tag
+git tag -a v1.0.3 -m "Classic MoP anti-repeat update"
+git push origin v1.0.3
 
+🧾 License
+
+This addon is released under the MIT License.
+
+❤️ Credits
+
+Classic MoP version built and maintained by Clair-Wow
+
+Based on the original Retail edition of Azeroth Pet Keeper
