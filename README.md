@@ -65,15 +65,6 @@ APK keeps your favorite companions with you without constant journal juggling.
 ## 🛠 Development
 Repo: https://github.com/Clair-Wow/APKclassic
 
-### Workflow
-```bash
-git add -A
-git commit -m "Your commit message"
-git push
-
-# create a new release tag
-git tag -a v1.0.3 -m "Classic MoP anti-repeat update"
-git push origin v1.0.3
 
 🧾 License
 
